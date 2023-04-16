@@ -5,7 +5,24 @@
   <style>
       body {
          background-color: rgb(155,155, 155);
+         font-family: cursive;
       }
+    .glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
    </style>
 <title>CHAD BROSKI</title>
 <link rel="icon" type="image/x-icon" href="image.ico">
@@ -16,8 +33,7 @@
 <p>1 MONERO.</p>
 <img src="image.png" alt="CHADBROSKI">
  <!---hehe i was here--->
- <h1 style="color: white;"> monero address 45qFMieJMk349ZJAK3bDjHYciUqk8nEPVdSRy4w17W115ejMrjnF6TUgKxPHCkundELCStoHBfNrYE8cDHTWZf8DQWmSr5U </h1>
- 
+  <h1 class="glow">monero address 45qFMieJMk349ZJAK3bDjHYciUqk8nEPVdSRy4w17W115ejMrjnF6TUgKxPHCkundELCStoHBfNrYE8cDHTWZf8DQWmSr5U</h1>
 <img src="monerowallet.png" alt="walletqrcode">
 
 </body>
